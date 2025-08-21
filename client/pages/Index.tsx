@@ -73,7 +73,7 @@ export default function Index() {
 
         <div className="pb-20">
         {/* Hero Section */}
-        <section className="mb-20 py-12 border-b border-white border-opacity-25">
+        <section className="mb-20 py-12 lg:h-[70vh] lg:flex lg:items-center border-b border-white border-opacity-25">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
