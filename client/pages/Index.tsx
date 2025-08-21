@@ -37,7 +37,7 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen text-white">
       {/* Header */}
       <header className="flex justify-between items-center px-6 lg:px-16 py-6">
         <div className="flex items-center">
