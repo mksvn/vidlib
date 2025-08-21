@@ -141,7 +141,7 @@ export default function Index() {
               
               <div className="space-y-4">
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
                     selectedVideos.includes('lesson2-video1')
                       ? 'border border-gray-600'
                       : 'hover:bg-gray-600'
@@ -149,16 +149,16 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson2-video1')}
                 >
                   <div className="flex items-center">
-                    <Play className={`w-4 h-4 mr-3 ${
+                    <CirclePlay className={`w-5 h-5 mr-3 ${
                       selectedVideos.includes('lesson2-video1') ? 'text-blue-400' : 'text-white'
                     }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Set budget and dates</span>
                   </div>
-                  <span className="text-gray-500 text-sm">3:15</span>
+                  <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">3:15</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
                     selectedVideos.includes('lesson2-video2')
                       ? 'border border-gray-600'
                       : 'hover:bg-gray-600'
@@ -166,16 +166,16 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson2-video2')}
                 >
                   <div className="flex items-center">
-                    <Play className={`w-4 h-4 mr-3 ${
+                    <CirclePlay className={`w-5 h-5 mr-3 ${
                       selectedVideos.includes('lesson2-video2') ? 'text-blue-400' : 'text-white'
                     }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Refine plan or make revisions</span>
                   </div>
-                  <span className="text-gray-500 text-sm">4:20</span>
+                  <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">4:20</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
                     selectedVideos.includes('lesson2-video3')
                       ? 'border border-gray-600'
                       : 'hover:bg-gray-600'
@@ -183,12 +183,12 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson2-video3')}
                 >
                   <div className="flex items-center">
-                    <Play className={`w-4 h-4 mr-3 ${
+                    <CirclePlay className={`w-5 h-5 mr-3 ${
                       selectedVideos.includes('lesson2-video3') ? 'text-blue-400' : 'text-white'
                     }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Finalize and share campaign plan</span>
                   </div>
-                  <span className="text-gray-500 text-sm">1:24</span>
+                  <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">1:24</span>
                 </div>
               </div>
               
