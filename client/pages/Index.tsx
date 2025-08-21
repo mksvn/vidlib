@@ -38,8 +38,9 @@ export default function Index() {
 
   return (
     <div className="min-h-screen text-white">
-      {/* Header */}
-      <header className="flex justify-between items-center px-6 lg:px-16 py-6">
+      <div className="container mx-auto">
+        {/* Header */}
+        <header className="flex justify-between items-center py-6">
         <div className="flex items-center">
           <span className="text-white text-lg font-medium">Ad</span>
           <span className="text-white text-lg font-light">Aura</span>
@@ -70,7 +71,7 @@ export default function Index() {
         </nav>
       </header>
 
-      <div className="px-6 lg:px-16 pb-20">
+        <div className="pb-20">
         {/* Hero Section */}
         <section className="max-w-4xl mb-20 py-12">
           <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
@@ -390,6 +391,7 @@ export default function Index() {
             <div className="bg-gray-200 aspect-video rounded-lg"></div>
           </div>
         </section>
+        </div>
       </div>
     </div>
   );
