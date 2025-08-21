@@ -213,68 +213,68 @@ export default function Index() {
               
               <div className="space-y-4">
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson3-video1')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson3-video1')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson3-video1') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson3-video1') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Get strategic recommendations for my brand</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:24</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson3-video2')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson3-video2')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson3-video2') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson3-video2') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Automate unique selling points and differentiators</span>
                   </div>
                   <span className="text-gray-500 text-sm">3:42</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson3-video3')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson3-video3')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson3-video3') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson3-video3') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Target relevant to my brand</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:39</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson3-video4')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson3-video4')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson3-video4') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson3-video4') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Discover my brand should use DOOH advertising</span>
                   </div>
                   <span className="text-gray-500 text-sm">1:50</span>
