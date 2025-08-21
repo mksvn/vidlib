@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play } from 'lucide-react';
+import { CirclePlay } from 'lucide-react';
 
 export default function Index() {
   const [selectedVideos, setSelectedVideos] = useState<string[]>([]);
