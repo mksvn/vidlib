@@ -78,10 +78,7 @@ export default function Index() {
             Intro to AdAura
           </h1>
           <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-2xl font-normal">
-            AdAura is an AI-powered campaign assistant built for smarter DOOH
-            advertising. It helps you plan, optimize, and launch tailored
-            campaigns quickly using data-driven insights and automated tools to
-            make your campaigns faster, smarter, and more effective.
+            AdAura is an AI-powered campaign assistant built for smarter DOOH advertising. It helps you plan, optimize, and launch tailored campaigns quickly using data-driven insights and global inventory access. Learn how to use AdAura to make your campaigns faster, smarter, and more effective.
           </p>
           <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-normal hover:bg-gray-100 transition-colors">
             Get started
