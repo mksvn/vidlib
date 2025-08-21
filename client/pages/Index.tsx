@@ -42,7 +42,7 @@ export default function Index() {
         {/* Header */}
         <header className="flex justify-between items-center py-6">
         <div className="flex items-center">
-          <span className="text-white text-lg font-medium">Ad</span>
+          <span className="text-white text-lg font-bold">Ad</span>
           <span className="text-white text-lg font-light">Aura</span>
         </div>
 
@@ -73,7 +73,7 @@ export default function Index() {
 
         <div className="pb-20">
         {/* Hero Section */}
-        <section className="max-w-4xl mb-20 py-12">
+        <section className="max-w-4xl mb-20 py-12 border-b border-white border-opacity-25">
           <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
             Intro to AdAura
           </h1>
@@ -98,7 +98,7 @@ export default function Index() {
 
         {/* Lesson 1 */}
         <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-8 items-start">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-2xl font-bold mb-4">
                 Lesson 1: Establish an optimal strategy
@@ -178,7 +178,7 @@ export default function Index() {
               </div>
 
               <div className="mt-6 text-sm text-gray-400 text-right px-3">
-                <span className="mr-4">Watch time:</span>
+                <span className="mr-4 font-bold">Watch time:</span>
                 <span>7 min 32 sec</span>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function Index() {
 
         {/* Lesson 2 */}
         <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-8 items-start">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="bg-gray-200 aspect-video rounded-lg lg:order-1"></div>
 
             <div className="lg:order-2">
@@ -270,7 +270,7 @@ export default function Index() {
               </div>
 
               <div className="mt-6 text-sm text-gray-400 text-right px-3">
-                <span className="mr-4">Watch time:</span>
+                <span className="mr-4 font-bold">Watch time:</span>
                 <span>7 min 38 sec</span>
               </div>
             </div>
@@ -279,7 +279,7 @@ export default function Index() {
 
         {/* Lesson 3 */}
         <section>
-          <div className="grid lg:grid-cols-2 gap-8 items-start">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-2xl font-bold mb-4">
                 Lesson 3: Brainstorm ideas for your brand/industry
@@ -380,7 +380,7 @@ export default function Index() {
               </div>
 
               <div className="mt-6 text-sm text-gray-400 text-right px-3">
-                <span className="mr-4">Watch time:</span>
+                <span className="mr-4 font-bold">Watch time:</span>
                 <span>5 min 40 sec</span>
               </div>
             </div>
