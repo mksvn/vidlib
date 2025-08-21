@@ -99,9 +99,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson1-video1')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson1-video1') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson1-video1')}
+                    />
                     <span className="text-gray-300 font-normal">Provide your industry category or brand</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">2:16</span>
@@ -116,9 +117,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson1-video2')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson1-video2') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson1-video2')}
+                    />
                     <span className="text-gray-300 font-normal">Explore inventory by market</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">2:12</span>
@@ -133,9 +135,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson1-video3')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson1-video3') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson1-video3')}
+                    />
                     <span className="text-gray-300 font-normal">Explore inventory by POI</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">3:47</span>
@@ -175,9 +178,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson2-video1')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson2-video1') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson2-video1')}
+                    />
                     <span className="text-gray-300 font-normal">Set budget and dates</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">3:15</span>
@@ -192,9 +196,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson2-video2')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson2-video2') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson2-video2')}
+                    />
                     <span className="text-gray-300 font-normal">Refine plan or make revisions</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">4:20</span>
@@ -209,9 +214,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson2-video3')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson2-video3') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson2-video3')}
+                    />
                     <span className="text-gray-300 font-normal">Finalize and share campaign plan</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">1:24</span>
@@ -247,9 +253,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson3-video1')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson3-video1') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson3-video1')}
+                    />
                     <span className="text-gray-300 font-normal">Get strategic recommendations for my brand</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">2:24</span>
@@ -264,9 +271,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson3-video2')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson3-video2') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson3-video2')}
+                    />
                     <span className="text-gray-300 font-normal">Automate unique selling points and differentiators</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">3:42</span>
@@ -281,9 +289,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson3-video3')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson3-video3') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson3-video3')}
+                    />
                     <span className="text-gray-300 font-normal">Target relevant to my brand</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">2:39</span>
@@ -298,9 +307,10 @@ export default function Index() {
                   onClick={() => toggleVideoSelection('lesson3-video4')}
                 >
                   <div className="flex items-center">
-                    <CirclePlay className={`w-5 h-5 mr-3 ${
-                      selectedVideos.includes('lesson3-video4') ? 'text-blue-400' : 'text-white'
-                    }`} fill="currentColor" />
+                    <PlayIconCutout
+                      className="mr-3"
+                      isSelected={selectedVideos.includes('lesson3-video4')}
+                    />
                     <span className="text-gray-300 font-normal">Discover my brand should use DOOH advertising</span>
                   </div>
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">1:50</span>
