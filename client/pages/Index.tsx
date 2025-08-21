@@ -59,7 +59,7 @@ export default function Index() {
 
       <div className="px-6 lg:px-16 pb-20">
         {/* Hero Section */}
-        <section className="max-w-4xl mb-20">
+        <section className="max-w-4xl mb-20 py-12">
           <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
             Intro to AdAura
           </h1>
@@ -72,8 +72,10 @@ export default function Index() {
           </button>
           
           <div className="flex items-center mt-8 text-sm text-gray-400">
-            <span className="mr-4">3h</span>
-            <span className="mr-6">Videos</span>
+            <div className="flex flex-col items-center mr-6">
+              <span className="font-bold text-base">10</span>
+              <span className="text-sm">Videos</span>
+            </div>
             <span className="mr-4">Total course time</span>
           </div>
         </section>
@@ -145,7 +147,7 @@ export default function Index() {
                 </div>
               </div>
               
-              <div className="mt-6 text-sm text-gray-400">
+              <div className="mt-6 text-sm text-gray-400 text-right px-3">
                 <span className="mr-4">Watch time:</span>
                 <span>7 min 32 sec</span>
               </div>
@@ -224,7 +226,7 @@ export default function Index() {
                 </div>
               </div>
               
-              <div className="mt-6 text-sm text-gray-400">
+              <div className="mt-6 text-sm text-gray-400 text-right px-3">
                 <span className="mr-4">Watch time:</span>
                 <span>7 min 38 sec</span>
               </div>
@@ -317,7 +319,7 @@ export default function Index() {
                 </div>
               </div>
               
-              <div className="mt-6 text-sm text-gray-400">
+              <div className="mt-6 text-sm text-gray-400 text-right px-3">
                 <span className="mr-4">Watch time:</span>
                 <span>5 min 40 sec</span>
               </div>
