@@ -73,26 +73,32 @@ export default function Index() {
 
         <div className="pb-20">
         {/* Hero Section */}
-        <section className="max-w-4xl mb-20 py-12 border-b border-white border-opacity-25">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Intro to AdAura
-          </h1>
-          <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-2xl font-normal">
-            AdAura is an AI-powered campaign assistant built for smarter DOOH advertising. It helps you plan, optimize, and launch tailored campaigns quickly using data-driven insights and global inventory access. Learn how to use AdAura to make your campaigns faster, smarter, and more effective.
-          </p>
-          <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-normal hover:bg-gray-100 transition-colors">
-            Get started
-          </button>
+        <section className="mb-20 py-12 border-b border-white border-opacity-25">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                Intro to AdAura
+              </h1>
+              <p className="text-gray-300 text-lg leading-relaxed mb-8 font-normal">
+                AdAura is an AI-powered campaign assistant built for smarter DOOH advertising. It helps you plan, optimize, and launch tailored campaigns quickly using data-driven insights and global inventory access. Learn how to use AdAura to make your campaigns faster, smarter, and more effective.
+              </p>
+              <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-normal hover:bg-gray-100 transition-colors">
+                Get started
+              </button>
 
-          <div className="flex items-center mt-8 text-sm text-gray-400">
-            <div className="flex flex-col items-start mr-6">
-              <span className="font-bold text-base">10</span>
-              <span className="text-sm">Videos</span>
+              <div className="flex items-center mt-8 text-sm text-gray-400">
+                <div className="flex flex-col items-start mr-6">
+                  <span className="font-bold text-base">10</span>
+                  <span className="text-sm">Videos</span>
+                </div>
+                <div className="flex flex-col items-start">
+                  <span className="font-bold text-base">8 min</span>
+                  <span className="text-sm">Total course time</span>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col items-start">
-              <span className="font-bold text-base">8 min</span>
-              <span className="text-sm">Total course time</span>
-            </div>
+
+            <div className="bg-gray-200 aspect-video rounded-lg"></div>
           </div>
         </section>
 
