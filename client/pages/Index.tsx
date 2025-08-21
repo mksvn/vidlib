@@ -43,10 +43,10 @@ export default function Index() {
         <section className="mb-16">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             <div>
-              <h2 className="text-2xl font-light mb-4">
+              <h2 className="text-2xl font-bold mb-4">
                 Lesson 1: Establish an optimal strategy
               </h2>
-              <p className="text-gray-300 mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed font-normal">
                 Start by defining your campaign goals and target audience. Our AI analyzes your industry and brand to provide data-driven recommendations that align with your objectives.
               </p>
               
@@ -54,7 +54,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Provide your industry category or brand</span>
+                    <span className="text-gray-300 font-normal">Provide your industry category or brand</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:16</span>
                 </div>
@@ -62,7 +62,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Explore inventory by market</span>
+                    <span className="text-gray-300 font-normal">Explore inventory by market</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:12</span>
                 </div>
@@ -70,7 +70,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Explore inventory by POI</span>
+                    <span className="text-gray-300 font-normal">Explore inventory by POI</span>
                   </div>
                   <span className="text-gray-500 text-sm">3:47</span>
                 </div>
@@ -92,10 +92,10 @@ export default function Index() {
             <div className="bg-gray-200 aspect-video rounded-lg lg:order-1"></div>
             
             <div className="lg:order-2">
-              <h2 className="text-2xl font-light mb-4">
+              <h2 className="text-2xl font-bold mb-4">
                 Lesson 2: Convert your strategy into a plan
               </h2>
-              <p className="text-gray-300 mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed font-normal">
                 Transform your strategy into actionable campaign plans with precise budget allocation and timeline management.
               </p>
               
@@ -103,7 +103,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Set budget and dates</span>
+                    <span className="text-gray-300 font-normal">Set budget and dates</span>
                   </div>
                   <span className="text-gray-500 text-sm">3:15</span>
                 </div>
@@ -111,7 +111,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Refine plan or make revisions</span>
+                    <span className="text-gray-300 font-normal">Refine plan or make revisions</span>
                   </div>
                   <span className="text-gray-500 text-sm">4:20</span>
                 </div>
@@ -119,7 +119,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Finalize and share campaign plan</span>
+                    <span className="text-gray-300 font-normal">Finalize and share campaign plan</span>
                   </div>
                   <span className="text-gray-500 text-sm">1:24</span>
                 </div>
@@ -137,10 +137,10 @@ export default function Index() {
         <section>
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             <div>
-              <h2 className="text-2xl font-light mb-4">
+              <h2 className="text-2xl font-bold mb-4">
                 Lesson 3: Brainstorm ideas for your brand/industry
               </h2>
-              <p className="text-gray-300 mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed font-normal">
                 Generate creative insights and strategic recommendations tailored specifically to your brand and industry vertical.
               </p>
               
@@ -148,7 +148,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Get strategic recommendations for my brand</span>
+                    <span className="text-gray-300 font-normal">Get strategic recommendations for my brand</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:24</span>
                 </div>
@@ -156,7 +156,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Automate unique selling points and differentiators</span>
+                    <span className="text-gray-300 font-normal">Automate unique selling points and differentiators</span>
                   </div>
                   <span className="text-gray-500 text-sm">3:42</span>
                 </div>
@@ -164,7 +164,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Target relevant to my brand</span>
+                    <span className="text-gray-300 font-normal">Target relevant to my brand</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:39</span>
                 </div>
@@ -172,7 +172,7 @@ export default function Index() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    <span className="text-gray-300">Discover my brand should use DOOH advertising</span>
+                    <span className="text-gray-300 font-normal">Discover my brand should use DOOH advertising</span>
                   </div>
                   <span className="text-gray-500 text-sm">1:50</span>
                 </div>
