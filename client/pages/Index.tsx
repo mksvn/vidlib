@@ -115,7 +115,7 @@ export default function Index() {
                 recommendations that align with your objectives.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <div
                   className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
                     selectedVideos.includes("lesson1-video1")
@@ -207,7 +207,7 @@ export default function Index() {
                 precise budget allocation and timeline management.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <div
                   className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
                     selectedVideos.includes("lesson2-video1")
@@ -295,7 +295,7 @@ export default function Index() {
                 tailored specifically to your brand and industry vertical.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <div
                   className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
                     selectedVideos.includes("lesson3-video1")
