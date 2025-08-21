@@ -21,14 +21,14 @@ export default function Index() {
       <div className="px-6 lg:px-16 pb-20">
         {/* Hero Section */}
         <section className="max-w-4xl mb-20">
-          <h1 className="text-4xl lg:text-5xl font-light mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
             Intro to AdAura
           </h1>
-          <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-2xl">
-            AdAura is an AI-powered campaign assistant built for smarter DOOH advertising. 
+          <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-2xl font-normal">
+            AdAura is an AI-powered campaign assistant built for smarter DOOH advertising.
             It helps you plan, optimize, and launch tailored campaigns quickly using data-driven insights and automated tools to make your campaigns faster, smarter, and more effective.
           </p>
-          <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-normal hover:bg-gray-100 transition-colors">
             Get started
           </button>
           
