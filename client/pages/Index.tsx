@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Play } from 'lucide-react';
 
 export default function Index() {
   const [selectedVideos, setSelectedVideos] = useState<string[]>([]);
@@ -64,51 +65,51 @@ export default function Index() {
               
               <div className="space-y-4">
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson1-video1')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson1-video1')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson1-video1') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson1-video1') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Provide your industry category or brand</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:16</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson1-video2')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson1-video2')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson1-video2') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson1-video2') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Explore inventory by market</span>
                   </div>
                   <span className="text-gray-500 text-sm">2:12</span>
                 </div>
 
                 <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors ${
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 ${
                     selectedVideos.includes('lesson1-video3')
-                      ? 'bg-gray-800 border border-gray-600'
-                      : 'hover:bg-gray-800/50'
+                      ? 'border border-gray-600'
+                      : 'hover:bg-gray-600'
                   }`}
                   onClick={() => toggleVideoSelection('lesson1-video3')}
                 >
                   <div className="flex items-center">
-                    <div className={`w-2 h-2 rounded-full mr-3 ${
-                      selectedVideos.includes('lesson1-video3') ? 'bg-blue-400' : 'bg-white'
-                    }`}></div>
+                    <Play className={`w-4 h-4 mr-3 ${
+                      selectedVideos.includes('lesson1-video3') ? 'text-blue-400' : 'text-white'
+                    }`} fill="currentColor" />
                     <span className="text-gray-300 font-normal">Explore inventory by POI</span>
                   </div>
                   <span className="text-gray-500 text-sm">3:47</span>
