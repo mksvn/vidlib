@@ -72,11 +72,14 @@ export default function Index() {
           </button>
           
           <div className="flex items-center mt-8 text-sm text-gray-400">
-            <div className="flex flex-col items-center mr-6">
+            <div className="flex flex-col items-start mr-6">
               <span className="font-bold text-base">10</span>
               <span className="text-sm">Videos</span>
             </div>
-            <span className="mr-4">Total course time</span>
+            <div className="flex flex-col items-start">
+              <span className="font-bold text-base">8 min</span>
+              <span className="text-sm">Total course time</span>
+            </div>
           </div>
         </section>
 
