@@ -51,7 +51,7 @@ const PlayIconCutout = ({
     <defs>
       <mask id="play-cutout">
         <rect width="20" height="20" fill="white" />
-        <polygon points="8,6 8,14 14,10" fill="white" />
+        <polygon points="8,6 8,14 14,10" fill="black" />
       </mask>
     </defs>
     <circle
@@ -172,7 +172,7 @@ export default function VideoDetail() {
                             <defs>
                               <mask id={`play-cutout-${index}`}>
                                 <rect width="20" height="20" fill="white" />
-                                <polygon points="8,6 8,14 14,10" fill="black" />
+                                <polygon points="8,6 8,14 14,10" fill="white" />
                               </mask>
                             </defs>
                             <circle
