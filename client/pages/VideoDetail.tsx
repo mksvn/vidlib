@@ -64,6 +64,20 @@ const PlayIconCutout = ({
 );
 
 export default function VideoDetail() {
+  const { lessonId, videoId } = useParams<{ lessonId: string; videoId: string }>();
+
+  // Get current lesson data
+  const currentLesson = lessonsData[lessonId as keyof typeof lessonsData];
+  const currentVideo = currentLesson?.videos[videoId as keyof typeof currentLesson.videos];
+  const videoEntries = Object.entries(currentLesson?.videos || {});
+
+  if (!currentLesson || !currentVideo) {
+    return <div>Video not found</div>;
+  }
+
+  // Check if this is the last video of lesson 3
+  const isLastVideoOfLastLesson = lessonId === 'lesson3' && videoId === 'video4';
+
   return (
     <div className="min-h-screen text-white">
       <div className="container mx-auto">
