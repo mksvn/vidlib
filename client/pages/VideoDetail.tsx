@@ -215,6 +215,7 @@ export default function VideoDetail() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
