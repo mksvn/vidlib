@@ -108,7 +108,7 @@ export default function VideoDetail() {
               Intro to AdAura
             </Link>
             <span className="text-gray-400 mx-2">/</span>
-            <span className="text-gray-400 font-normal">Lesson 1: Establish an optimal strategy</span>
+            <span className="text-gray-400 font-normal">{currentLesson.title}</span>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@ export default function VideoDetail() {
 
           {/* Video Title */}
           <h1 className="text-2xl lg:text-3xl font-bold mb-8 leading-tight">
-            Provide your industry category or brand
+            {currentVideo.title}
           </h1>
 
           {/* Video Player */}
