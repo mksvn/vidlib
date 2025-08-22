@@ -89,9 +89,9 @@ export default function VideoDetail() {
 
             {/* Video List */}
             <div className="space-y-3">
-              <div className="flex items-center justify-between text-black bg-gray-500 p-2 rounded">
+              <div className="flex items-center justify-between text-white bg-primary p-2 rounded">
                 <div className="flex items-center">
-                  <PlayIconCutout className="mr-3" isSelected={false} />
+                  <PlayIconCutout className="mr-3" isSelected={true} />
                   <span className="font-normal">1.1 Provide your industry category or brand</span>
                 </div>
                 <span className="text-sm">0:58</span>
