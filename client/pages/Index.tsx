@@ -135,18 +135,14 @@ export default function Index() {
                   </span>
                 </Link>
 
-                <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
-                    selectedVideos.includes("lesson1-video2")
-                      ? "border border-gray-600"
-                      : "hover:bg-gray-600"
-                  }`}
-                  onClick={() => toggleVideoSelection("lesson1-video2")}
+                <Link
+                  to="/video/lesson1/video2"
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                 >
                   <div className="flex items-center">
                     <PlayIconCutout
                       className="mr-3"
-                      isSelected={selectedVideos.includes("lesson1-video2")}
+                      isSelected={false}
                     />
                     <span className="text-gray-300 font-normal">
                       Explore inventory by market
@@ -155,20 +151,16 @@ export default function Index() {
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">
                     2:12
                   </span>
-                </div>
+                </Link>
 
-                <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
-                    selectedVideos.includes("lesson1-video3")
-                      ? "border border-gray-600"
-                      : "hover:bg-gray-600"
-                  }`}
-                  onClick={() => toggleVideoSelection("lesson1-video3")}
+                <Link
+                  to="/video/lesson1/video3"
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                 >
                   <div className="flex items-center">
                     <PlayIconCutout
                       className="mr-3"
-                      isSelected={selectedVideos.includes("lesson1-video3")}
+                      isSelected={false}
                     />
                     <span className="text-gray-300 font-normal">
                       Explore inventory by POI
@@ -177,7 +169,7 @@ export default function Index() {
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">
                     3:47
                   </span>
-                </div>
+                </Link>
               </div>
 
               <div className="mt-6 text-sm text-gray-400 text-right px-3">
