@@ -113,10 +113,10 @@ export default function VideoDetail() {
       <div className="border-t border-b border-white border-opacity-25 py-4">
         <div className="container mx-auto">
           <div className="flex items-center text-sm">
-            <Link to="/" className="text-gray-400 font-normal hover:text-white transition-colors">
+            <Link to="/" className="text-white font-normal hover:text-white transition-colors">
               Intro to AdAura
             </Link>
-            <span className="text-white mx-2">/</span>
+            <span className="text-gray-400 mx-2">/</span>
             <span className="text-white font-normal">{currentLesson.title}</span>
           </div>
         </div>
