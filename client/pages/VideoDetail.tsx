@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 // Lesson data structure
 const lessonsData = {
