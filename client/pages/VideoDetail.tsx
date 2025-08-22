@@ -6,10 +6,10 @@ export default function VideoDetail() {
       <div className="container mx-auto">
         {/* Header */}
         <header className="flex justify-between items-center py-6">
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
             <span className="text-white text-lg font-bold">Ad</span>
             <span className="text-white text-lg font-light">Aura</span>
-          </div>
+          </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-gray-300 hover:text-white transition-colors">Company</a>
