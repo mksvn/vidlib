@@ -1,4 +1,42 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+
+// Lesson data structure
+const lessonsData = {
+  lesson1: {
+    title: "Lesson 1: Establish an optimal strategy",
+    description: "Start by defining your campaign goals and target audience. Our AI analyzes your industry and brand to provide data-driven recommendations that align with your objectives.",
+    watchTime: "7min 32 sec",
+    videos: {
+      video1: { title: "Provide your industry category or brand", duration: "2:16" },
+      video2: { title: "Explore inventory by market", duration: "2:12" },
+      video3: { title: "Explore inventory by POI", duration: "3:47" }
+    },
+    next: { title: "Convert your strategy into a plan", route: "/video/lesson2/video1" }
+  },
+  lesson2: {
+    title: "Lesson 2: Convert your strategy into a plan",
+    description: "Transform your strategy into actionable campaign plans with precise budget allocation and timeline management.",
+    watchTime: "7min 38 sec",
+    videos: {
+      video1: { title: "Set budget and dates", duration: "3:15" },
+      video2: { title: "Refine plan or make revisions", duration: "4:20" },
+      video3: { title: "Finalize and share campaign plan", duration: "1:24" }
+    },
+    next: { title: "Brainstorm ideas for your brand/industry", route: "/video/lesson3/video1" }
+  },
+  lesson3: {
+    title: "Lesson 3: Brainstorm ideas for your brand/industry",
+    description: "Generate creative insights and strategic recommendations tailored specifically to your brand and industry vertical.",
+    watchTime: "5min 40 sec",
+    videos: {
+      video1: { title: "Get strategic recommendations for my brand", duration: "2:24" },
+      video2: { title: "Automate unique selling points and differentiators", duration: "3:42" },
+      video3: { title: "Target relevant to my brand", duration: "2:39" },
+      video4: { title: "Discover my brand should use DOOH advertising", duration: "1:50" }
+    },
+    next: null
+  }
+};
 
 // Custom play icon with white circle and cutout play button
 const PlayIconCutout = ({
