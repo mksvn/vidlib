@@ -89,15 +89,15 @@ export default function VideoDetail() {
                 <span className="text-sm">0:58</span>
               </div>
               
-              <div className="flex items-center justify-between text-black">
+              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer">
                 <div className="flex items-center">
                   <PlayIconCutout className="mr-3" isSelected={false} />
                   <span className="font-normal">1.2 Title</span>
                 </div>
                 <span className="text-sm">0:58</span>
               </div>
-              
-              <div className="flex items-center justify-between text-black">
+
+              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer">
                 <div className="flex items-center">
                   <PlayIconCutout className="mr-3" isSelected={false} />
                   <span className="font-normal">1.3 Title</span>
