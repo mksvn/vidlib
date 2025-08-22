@@ -145,8 +145,9 @@ export default function VideoDetail() {
                 const isActive = videoKey === videoId;
 
                 return (
-                  <div
+                  <Link
                     key={videoKey}
+                    to={`/video/${lessonId}/${videoKey}`}
                     className={`flex items-center justify-between p-2 rounded transition-colors cursor-pointer group ${
                       isActive
                         ? 'text-white bg-primary'
@@ -179,7 +180,7 @@ export default function VideoDetail() {
                       <span className="font-normal">{video.title}</span>
                     </div>
                     <span className="text-sm">{video.duration}</span>
-                  </div>
+                  </Link>
                 );
               })}
             </div>
