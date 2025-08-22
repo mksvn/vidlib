@@ -55,7 +55,7 @@ export default function Index() {
           >
             Resources
           </a>
-          <button className="px-4 py-2 rounded-full text-sm font-medium transition-colors text-white hover:bg-[#FE4774]" style={{backgroundColor: '#FE275C'}}>
+          <button className="bg-primary hover:bg-primary/90 px-4 py-2 rounded-full text-sm font-medium transition-colors text-white">
             Sign Up
           </button>
         </nav>
