@@ -186,17 +186,22 @@ export default function VideoDetail() {
           </div>
 
           {/* Next Lesson Section */}
-          <div className="border border-gray-400 rounded-lg p-6">
-            <div className="flex justify-between items-center">
-              <div>
-                <div className="text-gray-300 text-sm mb-1">Next Lesson</div>
-                <h4 className="text-white font-normal text-lg">Convert your strategy into a plan</h4>
+          {!isLastVideoOfLastLesson && currentLesson.next && (
+            <div className="border border-gray-400 rounded-lg p-6">
+              <div className="flex justify-between items-center">
+                <div>
+                  <div className="text-gray-300 text-sm mb-1">Next Lesson</div>
+                  <h4 className="text-white font-normal text-lg">{currentLesson.next.title}</h4>
+                </div>
+                <Link
+                  to={currentLesson.next.route}
+                  className="border border-gray-400 px-4 py-2 rounded text-sm font-normal hover:bg-gray-800 transition-colors"
+                >
+                  Go to {lessonId === 'lesson1' ? 'lesson 2' : 'lesson 3'}
+                </Link>
               </div>
-              <button className="border border-gray-400 px-4 py-2 rounded text-sm font-normal hover:bg-gray-800 transition-colors">
-                Go to lesson 2
-              </button>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </div>
