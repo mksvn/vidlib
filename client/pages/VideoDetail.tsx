@@ -1,5 +1,30 @@
 import { Link } from "react-router-dom";
 
+// Custom play icon with white circle and cutout play button
+const PlayIconCutout = ({
+  className,
+  isSelected,
+}: {
+  className?: string;
+  isSelected?: boolean;
+}) => (
+  <svg width="20" height="20" viewBox="0 0 20 20" className={className}>
+    <defs>
+      <mask id="play-cutout">
+        <rect width="20" height="20" fill="white" />
+        <polygon points="8,6 8,14 14,10" fill="black" />
+      </mask>
+    </defs>
+    <circle
+      cx="10"
+      cy="10"
+      r="9"
+      fill={isSelected ? "#60a5fa" : "black"}
+      mask="url(#play-cutout)"
+    />
+  </svg>
+);
+
 export default function VideoDetail() {
   return (
     <div className="min-h-screen text-white">
