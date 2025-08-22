@@ -13,7 +13,7 @@ export default function VideoDetail() {
             <a href="#" className="text-gray-300 hover:text-white transition-colors">Company</a>
             <a href="#" className="text-gray-300 hover:text-white transition-colors">Platform</a>
             <a href="#" className="text-gray-300 hover:text-white transition-colors">Resources</a>
-            <button className="px-4 py-2 rounded-full text-sm font-medium transition-colors text-white hover:bg-[#FE4774]" style={{backgroundColor: '#FE275C'}}>
+            <button className="bg-primary hover:bg-primary/90 px-4 py-2 rounded-full text-sm font-medium transition-colors text-white">
               Sign Up
             </button>
           </nav>
