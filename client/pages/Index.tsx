@@ -27,16 +27,6 @@ const PlayIconCutout = ({
 );
 
 export default function Index() {
-  const [selectedVideos, setSelectedVideos] = useState<string[]>([]);
-
-  const toggleVideoSelection = (videoId: string) => {
-    setSelectedVideos((prev) =>
-      prev.includes(videoId)
-        ? prev.filter((id) => id !== videoId)
-        : [...prev, videoId],
-    );
-  };
-
   return (
     <div className="min-h-screen text-white">
       <div className="container mx-auto">
