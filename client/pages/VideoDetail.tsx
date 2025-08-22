@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect } from "react";
+import Footer from "../components/Footer";
 
 // Lesson data structure
 const lessonsData = {
