@@ -132,10 +132,10 @@ export default function VideoDetail() {
           <div className="bg-gray-400 rounded-b-lg p-6 mb-8">
             <div className="flex justify-between items-center mb-6">
               <h3 className="text-black font-bold text-lg">
-                Lesson 1: Establish an optimal strategy (3 Videos)
+                {currentLesson.title} ({videoEntries.length} Videos)
               </h3>
               <span className="text-black font-bold text-sm">
-                Watch time: 7min 32 sec
+                Watch time: {currentLesson.watchTime}
               </span>
             </div>
 
