@@ -92,11 +92,11 @@ export default function VideoDetail() {
               <div className="flex items-center justify-between text-white bg-primary p-2 rounded">
                 <div className="flex items-center">
                   <PlayIconCutout className="mr-3" isSelected={true} />
-                  <span className="font-normal">1.1 Provide your industry category or brand</span>
+                  <span className="font-normal">Provide your industry category or brand</span>
                 </div>
-                <span className="text-sm">0:58</span>
+                <span className="text-sm">2:16</span>
               </div>
-              
+
               <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer group">
                 <div className="flex items-center">
                   <div className="mr-3">
@@ -117,9 +117,9 @@ export default function VideoDetail() {
                       />
                     </svg>
                   </div>
-                  <span className="font-normal">1.2 Title</span>
+                  <span className="font-normal">Explore inventory by market</span>
                 </div>
-                <span className="text-sm">0:58</span>
+                <span className="text-sm">2:12</span>
               </div>
 
               <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer group">
@@ -142,9 +142,9 @@ export default function VideoDetail() {
                       />
                     </svg>
                   </div>
-                  <span className="font-normal">1.3 Title</span>
+                  <span className="font-normal">Explore inventory by POI</span>
                 </div>
-                <span className="text-sm">0:58</span>
+                <span className="text-sm">3:47</span>
               </div>
             </div>
           </div>
