@@ -141,63 +141,47 @@ export default function VideoDetail() {
 
             {/* Video List */}
             <div className="space-y-3">
-              <div className="flex items-center justify-between text-white bg-primary p-2 rounded">
-                <div className="flex items-center">
-                  <PlayIconCutout className="mr-3" isSelected={true} />
-                  <span className="font-normal">Provide your industry category or brand</span>
-                </div>
-                <span className="text-sm">2:16</span>
-              </div>
+              {videoEntries.map(([videoKey, video], index) => {
+                const isActive = videoKey === videoId;
 
-              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer group">
-                <div className="flex items-center">
-                  <div className="mr-3">
-                    <svg width="20" height="20" viewBox="0 0 20 20">
-                      <defs>
-                        <mask id="play-cutout-2">
-                          <rect width="20" height="20" fill="white" />
-                          <polygon points="8,6 8,14 14,10" fill="black" />
-                        </mask>
-                      </defs>
-                      <circle
-                        cx="10"
-                        cy="10"
-                        r="9"
-                        fill="black"
-                        mask="url(#play-cutout-2)"
-                        className="group-hover:fill-white transition-colors"
-                      />
-                    </svg>
+                return (
+                  <div
+                    key={videoKey}
+                    className={`flex items-center justify-between p-2 rounded transition-colors cursor-pointer group ${
+                      isActive
+                        ? 'text-white bg-primary'
+                        : 'text-black hover:bg-primary hover:text-white'
+                    }`}
+                  >
+                    <div className="flex items-center">
+                      {isActive ? (
+                        <PlayIconCutout className="mr-3" isSelected={true} />
+                      ) : (
+                        <div className="mr-3">
+                          <svg width="20" height="20" viewBox="0 0 20 20">
+                            <defs>
+                              <mask id={`play-cutout-${index}`}>
+                                <rect width="20" height="20" fill="white" />
+                                <polygon points="8,6 8,14 14,10" fill="black" />
+                              </mask>
+                            </defs>
+                            <circle
+                              cx="10"
+                              cy="10"
+                              r="9"
+                              fill="black"
+                              mask={`url(#play-cutout-${index})`}
+                              className="group-hover:fill-white transition-colors"
+                            />
+                          </svg>
+                        </div>
+                      )}
+                      <span className="font-normal">{video.title}</span>
+                    </div>
+                    <span className="text-sm">{video.duration}</span>
                   </div>
-                  <span className="font-normal">Explore inventory by market</span>
-                </div>
-                <span className="text-sm">2:12</span>
-              </div>
-
-              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer group">
-                <div className="flex items-center">
-                  <div className="mr-3">
-                    <svg width="20" height="20" viewBox="0 0 20 20">
-                      <defs>
-                        <mask id="play-cutout-3">
-                          <rect width="20" height="20" fill="white" />
-                          <polygon points="8,6 8,14 14,10" fill="black" />
-                        </mask>
-                      </defs>
-                      <circle
-                        cx="10"
-                        cy="10"
-                        r="9"
-                        fill="black"
-                        mask="url(#play-cutout-3)"
-                        className="group-hover:fill-white transition-colors"
-                      />
-                    </svg>
-                  </div>
-                  <span className="font-normal">Explore inventory by POI</span>
-                </div>
-                <span className="text-sm">3:47</span>
-              </div>
+                );
+              })}
             </div>
           </div>
 
