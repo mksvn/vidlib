@@ -273,18 +273,14 @@ export default function Index() {
               </p>
 
               <div className="space-y-2">
-                <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
-                    selectedVideos.includes("lesson3-video1")
-                      ? "border border-gray-600"
-                      : "hover:bg-gray-600"
-                  }`}
-                  onClick={() => toggleVideoSelection("lesson3-video1")}
+                <Link
+                  to="/video/lesson3/video1"
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                 >
                   <div className="flex items-center">
                     <PlayIconCutout
                       className="mr-3"
-                      isSelected={selectedVideos.includes("lesson3-video1")}
+                      isSelected={false}
                     />
                     <span className="text-gray-300 font-normal">
                       Get strategic recommendations for my brand
@@ -293,20 +289,16 @@ export default function Index() {
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">
                     2:24
                   </span>
-                </div>
+                </Link>
 
-                <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
-                    selectedVideos.includes("lesson3-video2")
-                      ? "border border-gray-600"
-                      : "hover:bg-gray-600"
-                  }`}
-                  onClick={() => toggleVideoSelection("lesson3-video2")}
+                <Link
+                  to="/video/lesson3/video2"
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                 >
                   <div className="flex items-center">
                     <PlayIconCutout
                       className="mr-3"
-                      isSelected={selectedVideos.includes("lesson3-video2")}
+                      isSelected={false}
                     />
                     <span className="text-gray-300 font-normal">
                       Automate unique selling points and differentiators
@@ -315,20 +307,16 @@ export default function Index() {
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">
                     3:42
                   </span>
-                </div>
+                </Link>
 
-                <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
-                    selectedVideos.includes("lesson3-video3")
-                      ? "border border-gray-600"
-                      : "hover:bg-gray-600"
-                  }`}
-                  onClick={() => toggleVideoSelection("lesson3-video3")}
+                <Link
+                  to="/video/lesson3/video3"
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                 >
                   <div className="flex items-center">
                     <PlayIconCutout
                       className="mr-3"
-                      isSelected={selectedVideos.includes("lesson3-video3")}
+                      isSelected={false}
                     />
                     <span className="text-gray-300 font-normal">
                       Target relevant to my brand
@@ -337,20 +325,16 @@ export default function Index() {
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">
                     2:39
                   </span>
-                </div>
+                </Link>
 
-                <div
-                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group ${
-                    selectedVideos.includes("lesson3-video4")
-                      ? "border border-gray-600"
-                      : "hover:bg-gray-600"
-                  }`}
-                  onClick={() => toggleVideoSelection("lesson3-video4")}
+                <Link
+                  to="/video/lesson3/video4"
+                  className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                 >
                   <div className="flex items-center">
                     <PlayIconCutout
                       className="mr-3"
-                      isSelected={selectedVideos.includes("lesson3-video4")}
+                      isSelected={false}
                     />
                     <span className="text-gray-300 font-normal">
                       Discover my brand should use DOOH advertising
@@ -359,7 +343,7 @@ export default function Index() {
                   <span className="text-gray-500 text-sm group-hover:text-gray-300 transition-colors">
                     1:50
                   </span>
-                </div>
+                </Link>
               </div>
 
               <div className="mt-6 text-sm text-gray-400 text-right px-3">
