@@ -117,7 +117,7 @@ export default function VideoDetail() {
               Intro to AdAura
             </Link>
             <span className="text-gray-400 mx-2">/</span>
-            <span className="text-gray-400 font-normal">{currentLesson.title}</span>
+            <span className="text-white font-normal">{currentLesson.title}</span>
           </div>
         </div>
       </div>
