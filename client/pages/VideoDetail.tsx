@@ -116,7 +116,7 @@ export default function VideoDetail() {
             <Link to="/" className="text-gray-400 font-normal hover:text-white transition-colors">
               Intro to AdAura
             </Link>
-            <span className="text-gray-400 mx-2">/</span>
+            <span className="text-white mx-2">/</span>
             <span className="text-white font-normal">{currentLesson.title}</span>
           </div>
         </div>
