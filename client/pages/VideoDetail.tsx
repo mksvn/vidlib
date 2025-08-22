@@ -46,15 +46,23 @@ export default function VideoDetail() {
           </nav>
         </header>
 
-        <div className="pb-20">
-          {/* Breadcrumb */}
-          <div className="mb-4 flex items-center text-sm">
+      </div>
+
+      {/* Full width breadcrumb section */}
+      <div className="border-t border-b border-white border-opacity-25 py-4">
+        <div className="container mx-auto">
+          <div className="flex items-center text-sm">
             <Link to="/" className="text-gray-400 font-normal hover:text-white transition-colors">
               Intro to AdAura
             </Link>
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-gray-400 font-normal">Lesson 1: Establish an optimal strategy</span>
           </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto">
+        <div className="pt-8 pb-20">
 
           {/* Video Title */}
           <h1 className="text-2xl lg:text-3xl font-bold mb-8 leading-tight">
