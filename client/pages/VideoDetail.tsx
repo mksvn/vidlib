@@ -58,7 +58,7 @@ const PlayIconCutout = ({
       cx="10"
       cy="10"
       r="9"
-      fill={isSelected ? "white" : "black"}
+      fill={isSelected ? "white" : "white"}
       mask="url(#play-cutout)"
     />
   </svg>
