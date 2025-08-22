@@ -83,7 +83,7 @@ export default function VideoDetail() {
                 Lesson 1: Establish an optimal strategy (3 Videos)
               </h3>
               <span className="text-black font-bold text-sm">
-                Watch time: 2min 22 sec
+                Watch time: 7min 32 sec
               </span>
             </div>
 
