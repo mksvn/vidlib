@@ -51,14 +51,14 @@ const PlayIconCutout = ({
     <defs>
       <mask id="play-cutout">
         <rect width="20" height="20" fill="white" />
-        <polygon points="8,6 8,14 14,10" fill="black" />
+        <polygon points="8,6 8,14 14,10" fill="white" />
       </mask>
     </defs>
     <circle
       cx="10"
       cy="10"
       r="9"
-      fill={isSelected ? "white" : "white"}
+      fill={isSelected ? "white" : "black"}
       mask="url(#play-cutout)"
     />
   </svg>
