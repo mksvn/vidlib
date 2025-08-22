@@ -172,7 +172,7 @@ export default function VideoDetail() {
                             <defs>
                               <mask id={`play-cutout-${index}`}>
                                 <rect width="20" height="20" fill="white" />
-                                <polygon points="8,6 8,14 14,10" fill="white" />
+                                <polygon points="8,6 8,14 14,10" fill="black" />
                               </mask>
                             </defs>
                             <circle
