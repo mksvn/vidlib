@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 // Custom play icon with white circle and cutout play button
 const PlayIconCutout = ({
