@@ -172,14 +172,14 @@ export default function VideoDetail() {
                             <defs>
                               <mask id={`play-cutout-${index}`}>
                                 <rect width="20" height="20" fill="white" />
-                                <polygon points="8,6 8,14 14,10" fill="white" />
+                                <polygon points="8,6 8,14 14,10" fill="black" />
                               </mask>
                             </defs>
                             <circle
                               cx="10"
                               cy="10"
                               r="9"
-                              fill="black"
+                              fill="white"
                               mask={`url(#play-cutout-${index})`}
                               className="group-hover:fill-white transition-colors"
                             />
