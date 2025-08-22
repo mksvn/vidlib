@@ -62,14 +62,14 @@ export default function VideoDetail() {
           </h1>
 
           {/* Video Player */}
-          <div className="mb-12">
-            <div className="bg-gray-400 aspect-video rounded-lg flex items-center justify-center text-black text-xl font-medium">
+          <div>
+            <div className="bg-gray-400 aspect-video rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
               Video Placeholder
             </div>
           </div>
 
           {/* Video Info Section */}
-          <div className="bg-gray-400 rounded-lg p-6 mb-8">
+          <div className="bg-gray-400 rounded-b-lg p-6 mb-8">
             <div className="flex justify-between items-center mb-6">
               <h3 className="text-black font-bold text-lg">
                 Lesson 1: Establish an optimal strategy (3 Videos)
@@ -81,9 +81,9 @@ export default function VideoDetail() {
 
             {/* Video List */}
             <div className="space-y-3">
-              <div className="flex items-center justify-between text-black">
+              <div className="flex items-center justify-between text-black bg-gray-500 p-2 rounded">
                 <div className="flex items-center">
-                  <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
+                  <PlayIconCutout className="mr-3" isSelected={false} />
                   <span className="font-normal">1.1 Provide your industry category or brand</span>
                 </div>
                 <span className="text-sm">0:58</span>
@@ -91,7 +91,7 @@ export default function VideoDetail() {
               
               <div className="flex items-center justify-between text-black">
                 <div className="flex items-center">
-                  <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
+                  <PlayIconCutout className="mr-3" isSelected={false} />
                   <span className="font-normal">1.2 Title</span>
                 </div>
                 <span className="text-sm">0:58</span>
@@ -99,7 +99,7 @@ export default function VideoDetail() {
               
               <div className="flex items-center justify-between text-black">
                 <div className="flex items-center">
-                  <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
+                  <PlayIconCutout className="mr-3" isSelected={false} />
                   <span className="font-normal">1.3 Title</span>
                 </div>
                 <span className="text-sm">0:58</span>
