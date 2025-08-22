@@ -72,6 +72,14 @@ export default function VideoDetail() {
   const currentVideo = currentLesson?.videos[videoId as keyof typeof currentLesson.videos];
   const videoEntries = Object.entries(currentLesson?.videos || {});
 
+  // Smooth scroll to top when video changes
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, [lessonId, videoId]);
+
   if (!currentLesson || !currentVideo) {
     return <div>Video not found</div>;
   }
