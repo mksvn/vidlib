@@ -97,17 +97,51 @@ export default function VideoDetail() {
                 <span className="text-sm">0:58</span>
               </div>
               
-              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer">
+              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer group">
                 <div className="flex items-center">
-                  <PlayIconCutout className="mr-3" isSelected={false} />
+                  <div className="mr-3">
+                    <svg width="20" height="20" viewBox="0 0 20 20">
+                      <defs>
+                        <mask id="play-cutout-2">
+                          <rect width="20" height="20" fill="white" />
+                          <polygon points="8,6 8,14 14,10" fill="black" />
+                        </mask>
+                      </defs>
+                      <circle
+                        cx="10"
+                        cy="10"
+                        r="9"
+                        fill="black"
+                        mask="url(#play-cutout-2)"
+                        className="group-hover:fill-white transition-colors"
+                      />
+                    </svg>
+                  </div>
                   <span className="font-normal">1.2 Title</span>
                 </div>
                 <span className="text-sm">0:58</span>
               </div>
 
-              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer">
+              <div className="flex items-center justify-between text-black p-2 rounded hover:bg-primary hover:text-white transition-colors cursor-pointer group">
                 <div className="flex items-center">
-                  <PlayIconCutout className="mr-3" isSelected={false} />
+                  <div className="mr-3">
+                    <svg width="20" height="20" viewBox="0 0 20 20">
+                      <defs>
+                        <mask id="play-cutout-3">
+                          <rect width="20" height="20" fill="white" />
+                          <polygon points="8,6 8,14 14,10" fill="black" />
+                        </mask>
+                      </defs>
+                      <circle
+                        cx="10"
+                        cy="10"
+                        r="9"
+                        fill="black"
+                        mask="url(#play-cutout-3)"
+                        className="group-hover:fill-white transition-colors"
+                      />
+                    </svg>
+                  </div>
                   <span className="font-normal">1.3 Title</span>
                 </div>
                 <span className="text-sm">0:58</span>
