@@ -23,8 +23,12 @@ export default function VideoDetail() {
 
         <div className="pb-20">
           {/* Breadcrumb */}
-          <div className="mb-4">
-            <span className="text-gray-400 text-sm font-normal">Lesson 1: Establish an optimal strategy</span>
+          <div className="mb-4 flex items-center text-sm">
+            <Link to="/" className="text-gray-400 font-normal hover:text-white transition-colors">
+              Intro to AdAura
+            </Link>
+            <span className="text-gray-400 mx-2">/</span>
+            <span className="text-gray-400 font-normal">Lesson 1: Establish an optimal strategy</span>
           </div>
 
           {/* Video Title */}
