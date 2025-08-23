@@ -9,7 +9,12 @@ const PlayIconCutout = ({
   className?: string;
   isSelected?: boolean;
 }) => (
-  <svg width="20" height="20" viewBox="0 0 20 20" className={className}>
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    className={`w-5 h-5 flex-shrink-0 ${className || ''}`}
+  >
     <defs>
       <mask id="play-cutout">
         <rect width="20" height="20" fill="white" />
