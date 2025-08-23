@@ -92,7 +92,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="rounded-lg p-6 aspect-video flex flex-col">
+            <div className="rounded-lg p-6 flex flex-col">
               <img src="https://storybook.js.org/tutorials/guide-cover/intro.svg" />
             </div>
           </div>
