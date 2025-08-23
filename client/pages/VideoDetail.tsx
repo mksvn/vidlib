@@ -133,7 +133,7 @@ export default function VideoDetail() {
 
           {/* Video Player */}
           <div>
-            <div className="bg-gray-400 aspect-video rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
+            <div className="bg-gray-400 rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
               <video width="100%" controls>
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
               </video>
