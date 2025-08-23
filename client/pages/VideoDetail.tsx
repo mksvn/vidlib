@@ -135,7 +135,7 @@ export default function VideoDetail() {
           <div>
             <div className="bg-gray-400 aspect-video rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
               <video width="100%" controls>
-                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
