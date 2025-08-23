@@ -251,7 +251,7 @@ export default function VideoDetail() {
                               cx="10"
                               cy="10"
                               r="9"
-                              fill="black"
+                              fill="white"
                               mask={`url(#play-cutout-${index})`}
                               className="group-hover:fill-white transition-colors"
                             />
