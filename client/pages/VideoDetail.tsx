@@ -173,9 +173,10 @@ export default function VideoDetail() {
 
           {/* Video Player */}
           <div>
-            <div className="bg-gray-400 rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
-              <video width="100%" controls autoPlay>
-                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+            <div className="bg-gray-400 aspect-video rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
+              <video width="100%" height="100%" controls autoPlay className="rounded-t-lg">
+                <source src={currentVideo.videoUrl} type="video/mp4" />
+                Your browser does not support the video tag.
               </video>
             </div>
           </div>
