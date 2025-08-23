@@ -158,8 +158,8 @@ export default function Index() {
                     to="/video/lesson1/video3"
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                   >
-                    <div className="flex items-center">
-                      <PlayIconCutout className="mr-3" isSelected={false} />
+                    <div className="flex items-start md:items-center">
+                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
                       <span className="text-gray-300 font-normal">
                         Explore inventory by POI
                       </span>
