@@ -134,7 +134,7 @@ export default function VideoDetail() {
           {/* Video Player */}
           <div>
             <div className="bg-gray-400 rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
-              <video width="100%" controls>
+              <video width="100%" controls autoplay>
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
               </video>
             </div>
