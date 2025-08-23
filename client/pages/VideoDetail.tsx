@@ -223,16 +223,16 @@ export default function VideoDetail() {
             {/* Video List */}
             <div className="space-y-3">
               {videoEntries.map(([videoKey, video], index) => {
-                const isActive = videoKey === videoId;
+                const isActive = videoKey === currentPlayingVideoId;
 
                 return (
-                  <Link
+                  <div
                     key={videoKey}
-                    to={`/video/${lessonId}/${videoKey}`}
+                    onClick={() => handleVideoSelect(videoKey, video)}
                     className={`flex items-center justify-between p-2 rounded transition-colors cursor-pointer group ${
                       isActive
                         ? 'text-white bg-primary'
-                      : 'text-white hover:bg-primary hover:text-white'
+                        : 'text-white hover:bg-primary hover:text-white'
                     }`}
                   >
                     <div className="flex items-center">
@@ -261,7 +261,7 @@ export default function VideoDetail() {
                       <span className="font-normal">{video.title}</span>
                     </div>
                     <span className="text-sm">{video.duration}</span>
-                  </Link>
+                  </div>
                 );
               })}
             </div>
