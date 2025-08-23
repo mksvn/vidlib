@@ -247,7 +247,7 @@ export default function Index() {
           {/* Lesson 3 */}
           <section>
             <div className="grid lg:grid-cols-2 gap-16 items-start">
-              <div>
+              <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 3: Brainstorm ideas for your brand/industry
                 </h2>
