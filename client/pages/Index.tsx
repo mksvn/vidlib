@@ -171,7 +171,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="bg-gray-200 aspect-video rounded-lg"></div>
+              <div className="bg-gray-200 aspect-video rounded-lg order-1 lg:order-2"></div>
             </div>
           </section>
 
