@@ -199,8 +199,8 @@ export default function Index() {
                     to="/video/lesson2/video1"
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                   >
-                    <div className="flex items-center">
-                      <PlayIconCutout className="mr-3" isSelected={false} />
+                    <div className="flex items-start md:items-center">
+                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
                       <span className="text-gray-300 font-normal">
                         Set budget and dates
                       </span>
@@ -214,8 +214,8 @@ export default function Index() {
                     to="/video/lesson2/video2"
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                   >
-                    <div className="flex items-center">
-                      <PlayIconCutout className="mr-3" isSelected={false} />
+                    <div className="flex items-start md:items-center">
+                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
                       <span className="text-gray-300 font-normal">
                         Refine plan or make revisions
                       </span>
@@ -229,8 +229,8 @@ export default function Index() {
                     to="/video/lesson2/video3"
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
                   >
-                    <div className="flex items-center">
-                      <PlayIconCutout className="mr-3" isSelected={false} />
+                    <div className="flex items-start md:items-center">
+                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
                       <span className="text-gray-300 font-normal">
                         Finalize and share campaign plan
                       </span>
