@@ -107,11 +107,24 @@ const PlayIconCutout = ({
 
 export default function VideoDetail() {
   const { lessonId, videoId } = useParams<{ lessonId: string; videoId: string }>();
+  const navigate = useNavigate();
 
   // Get current lesson data
   const currentLesson = lessonsData[lessonId as keyof typeof lessonsData];
   const currentVideo = currentLesson?.videos[videoId as keyof typeof currentLesson.videos];
   const videoEntries = Object.entries(currentLesson?.videos || {});
+
+  // State for currently playing video
+  const [currentPlayingVideo, setCurrentPlayingVideo] = useState(currentVideo);
+  const [currentPlayingVideoId, setCurrentPlayingVideoId] = useState(videoId);
+
+  // Update playing video when URL params change
+  useEffect(() => {
+    if (currentVideo) {
+      setCurrentPlayingVideo(currentVideo);
+      setCurrentPlayingVideoId(videoId);
+    }
+  }, [currentVideo, videoId]);
 
   // Smooth scroll to top when video changes
   useEffect(() => {
@@ -120,6 +133,14 @@ export default function VideoDetail() {
       behavior: 'smooth'
     });
   }, [lessonId, videoId]);
+
+  // Handle video selection
+  const handleVideoSelect = (videoKey: string, video: any) => {
+    setCurrentPlayingVideo(video);
+    setCurrentPlayingVideoId(videoKey);
+    // Update URL without full page reload
+    navigate(`/video/${lessonId}/${videoKey}`, { replace: true });
+  };
 
   if (!currentLesson || !currentVideo) {
     return <div>Video not found</div>;
