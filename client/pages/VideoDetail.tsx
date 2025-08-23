@@ -134,7 +134,11 @@ export default function VideoDetail() {
           {/* Video Player */}
           <div>
             <div className="bg-gray-400 aspect-video rounded-t-lg flex items-center justify-center text-black text-xl font-medium">
-              Video Placeholder
+              <video width="400" controls>
+                <source src="mov_bbb.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+              </video>
             </div>
           </div>
 
