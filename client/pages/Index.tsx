@@ -106,9 +106,9 @@ export default function Index() {
           </section>
 
           {/* Lesson 1 */}
-          <section className="mb-16">
-            <div className="grid lg:grid-cols-2 gap-16 items-start">
-              <div>
+        <section className="mb-16">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 1: Establish an optimal strategy
                 </h2>
