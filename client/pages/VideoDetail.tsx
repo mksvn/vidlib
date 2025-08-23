@@ -232,7 +232,7 @@ export default function VideoDetail() {
                     className={`flex items-center justify-between p-2 rounded transition-colors cursor-pointer group ${
                       isActive
                         ? 'text-white bg-primary'
-                        : 'text-black hover:bg-primary hover:text-white'
+                        : 'text-white hover:bg-primary hover:text-white'
                     }`}
                   >
                     <div className="flex items-center">
