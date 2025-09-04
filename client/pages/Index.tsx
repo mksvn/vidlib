@@ -176,26 +176,14 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="relative aspect-video rounded-lg overflow-hidden order-1 lg:order-2">
-                <img
-                  src="/images/lesson1.svg"
-                  alt="AdAura strategy dashboard with map pins and charts"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              </div>
+              <div className="bg-gray-200 aspect-video rounded-lg order-1 lg:order-2"></div>
             </div>
           </section>
 
           {/* Lesson 2 */}
           <section className="mb-16">
             <div className="grid lg:grid-cols-2 gap-16 items-start">
-              <div className="relative aspect-video rounded-lg overflow-hidden lg:order-1">
-                <img
-                  src="/images/lesson2.svg"
-                  alt="Campaign planning visuals with calendar and budget controls"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              </div>
+              <div className="bg-gray-200 aspect-video rounded-lg lg:order-1"></div>
 
               <div className="lg:order-2">
                 <h2 className="text-2xl font-bold mb-4">
@@ -341,13 +329,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="relative aspect-video rounded-lg overflow-hidden order-1 lg:order-2">
-                <img
-                  src="/images/lesson3.svg"
-                  alt="Brainstorming visuals with idea cards and targeting"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              </div>
+              <div className="bg-gray-200 aspect-video rounded-lg order-1 lg:order-2"></div>
             </div>
           </section>
         </div>
