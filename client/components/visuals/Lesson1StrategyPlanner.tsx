@@ -26,25 +26,24 @@ export default function Lesson1StrategyPlanner() {
 
         {/* Main cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Campaign Goals */}
+          {/* Industries */}
           <div className="bg-white rounded-xl border border-orange-100 shadow-sm p-4">
             <div className="flex items-center mb-3">
               <div className="w-5 h-5 rounded-full bg-orange-500/10 flex items-center justify-center mr-2">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 20l9-5-9-5-9 5 9 5z"/>
-                  <path d="M12 12l9-5-9-5-9 5 9 5z"/>
+                  <path d="M3 10h18M3 14h18"/>
                 </svg>
               </div>
-              <div className="font-semibold text-gray-900">Campaign Goals</div>
+              <div className="font-semibold text-gray-900">Industries</div>
             </div>
 
             <div className="space-y-3">
-              {/* Selected item */}
+              {/* Selected industry */}
               <div className="rounded-lg border border-orange-200 bg-orange-50 p-3">
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-gray-900 font-medium">Brand Awareness</div>
-                    <div className="text-xs text-gray-500">Primary objective</div>
+                    <div className="text-gray-900 font-medium">Technology</div>
+                    <div className="text-xs text-gray-500">Primary industry</div>
                   </div>
                   <div className="w-5 h-5 rounded-full bg-white border border-orange-300 flex items-center justify-center text-orange-500">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
@@ -54,12 +53,12 @@ export default function Lesson1StrategyPlanner() {
                 </div>
               </div>
 
-              {/* Other items */}
+              {/* Other industries */}
               <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-gray-700 font-medium">Lead Generation</div>
-                    <div className="text-xs text-gray-500">Secondary objective</div>
+                    <div className="text-gray-700 font-medium">Retail & E‑commerce</div>
+                    <div className="text-xs text-gray-500">Consumer brands</div>
                   </div>
                   <div className="w-5 h-5 rounded-full bg-white border border-gray-300" />
                 </div>
@@ -68,8 +67,28 @@ export default function Lesson1StrategyPlanner() {
               <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-gray-700 font-medium">Sales Conversion</div>
-                    <div className="text-xs text-gray-500">Future consideration</div>
+                    <div className="text-gray-700 font-medium">Healthcare</div>
+                    <div className="text-xs text-gray-500">Hospitals & pharma</div>
+                  </div>
+                  <div className="w-5 h-5 rounded-full bg-white border border-gray-300" />
+                </div>
+              </div>
+
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-gray-700 font-medium">Financial Services</div>
+                    <div className="text-xs text-gray-500">Banking & fintech</div>
+                  </div>
+                  <div className="w-5 h-5 rounded-full bg-white border border-gray-300" />
+                </div>
+              </div>
+
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-gray-700 font-medium">Hospitality & Travel</div>
+                    <div className="text-xs text-gray-500">Hotels, airlines, tourism</div>
                   </div>
                   <div className="w-5 h-5 rounded-full bg-white border border-gray-300" />
                 </div>
