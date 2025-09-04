@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import Lesson1StrategyPlanner from "../components/visuals/Lesson1StrategyPlanner";
 
 // Custom play icon with white circle and cutout play button
 const PlayIconCutout = ({
@@ -176,7 +177,9 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="bg-gray-200 aspect-video rounded-lg order-1 lg:order-2"></div>
+              <div className="order-1 lg:order-2">
+                <Lesson1StrategyPlanner />
+              </div>
             </div>
           </section>
 
