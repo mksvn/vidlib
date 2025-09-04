@@ -1,0 +1,71 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg1)"/>
+
+  <!-- Title Bar -->
+  <rect x="72" y="56" width="400" height="20" rx="10" fill="#1F2937"/>
+  <rect x="72" y="56" width="180" height="20" rx="10" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Main dashboard card -->
+  <rect x="72" y="108" width="1136" height="504" rx="16" fill="#0F172A" stroke="#1F2937"/>
+
+  <!-- Sidebar -->
+  <rect x="92" y="132" width="280" height="460" rx="12" fill="#111827"/>
+  <!-- Sidebar items -->
+  <rect x="112" y="152" width="180" height="14" rx="7" fill="#374151"/>
+  <rect x="112" y="182" width="220" height="10" rx="5" fill="#1F2937"/>
+  <rect x="112" y="206" width="220" height="10" rx="5" fill="#1F2937"/>
+  <rect x="112" y="230" width="160" height="10" rx="5" fill="#1F2937"/>
+  <rect x="112" y="280" width="220" height="10" rx="5" fill="#1F2937"/>
+  <rect x="112" y="304" width="160" height="10" rx="5" fill="#1F2937"/>
+  <rect x="112" y="328" width="200" height="10" rx="5" fill="#1F2937"/>
+
+  <!-- Map panel -->
+  <rect x="392" y="132" width="796" height="300" rx="12" fill="#111827"/>
+  <!-- Faint map blobs -->
+  <ellipse cx="540" cy="252" rx="88" ry="64" fill="#0B1220"/>
+  <ellipse cx="760" cy="232" rx="120" ry="76" fill="#0B1220"/>
+  <ellipse cx="980" cy="260" rx="90" ry="60" fill="#0B1220"/>
+  <!-- Map pins -->
+  <g>
+    <circle cx="560" cy="230" r="10" fill="#111827"/>
+    <circle cx="560" cy="230" r="6" fill="#60A5FA"/>
+    <circle cx="760" cy="210" r="10" fill="#111827"/>
+    <circle cx="760" cy="210" r="6" fill="#34D399"/>
+    <circle cx="920" cy="260" r="10" fill="#111827"/>
+    <circle cx="920" cy="260" r="6" fill="#FBBF24"/>
+    <circle cx="1040" cy="220" r="10" fill="#111827"/>
+    <circle cx="1040" cy="220" r="6" fill="#EF4444"/>
+  </g>
+
+  <!-- Chart panel -->
+  <rect x="392" y="452" width="796" height="140" rx="12" fill="#111827"/>
+  <rect x="420" y="476" width="28" height="92" rx="6" fill="#1F2937"/>
+  <rect x="458" y="496" width="28" height="72" rx="6" fill="#2563EB"/>
+  <rect x="496" y="512" width="28" height="56" rx="6" fill="#60A5FA"/>
+  <rect x="534" y="488" width="28" height="80" rx="6" fill="#1F2937"/>
+  <rect x="572" y="508" width="28" height="60" rx="6" fill="#34D399"/>
+  <rect x="610" y="520" width="28" height="48" rx="6" fill="#FBBF24"/>
+  <rect x="648" y="500" width="28" height="68" rx="6" fill="#EF4444"/>
+
+  <!-- Search pill -->
+  <rect x="412" y="152" width="360" height="28" rx="14" fill="#0B1220" stroke="#1F2937"/>
+  <circle cx="430" cy="166" r="6" fill="#374151"/>
+  <rect x="444" y="160" width="120" height="12" rx="6" fill="#374151"/>
+
+  <!-- Glow accents -->
+  <circle cx="1150" cy="70" r="40" fill="#2563EB" opacity="0.15" filter="url(#soft)"/>
+  <circle cx="120" cy="660" r="60" fill="#60A5FA" opacity="0.12" filter="url(#soft)"/>
+</svg>
