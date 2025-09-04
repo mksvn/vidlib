@@ -96,47 +96,77 @@ export default function Lesson1StrategyPlanner() {
             </div>
           </div>
 
-          {/* Target Audience */}
+          {/* Inventory Selection */}
           <div className="bg-white rounded-xl border border-orange-100 shadow-sm p-4">
             <div className="flex items-center mb-3">
               <div className="w-5 h-5 rounded-full bg-orange-500/10 flex items-center justify-center mr-2">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M16 21v-2a4 4 0 0 0-8 0v2"/>
-                  <circle cx="12" cy="7" r="4"/>
+                  <path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
                 </svg>
               </div>
-              <div className="font-semibold text-gray-900">Target Audience</div>
-              <span className="ml-auto text-[10px] px-2 py-0.5 rounded-full bg-orange-500/10 text-orange-600 border border-orange-200">High Priority</span>
+              <div className="font-semibold text-gray-900">Inventory Selection</div>
+              <span className="ml-auto text-[10px] px-2 py-0.5 rounded-full bg-orange-500/10 text-orange-600 border border-orange-200">Los Angeles, CA</span>
             </div>
 
-            <div className="space-y-3">
-              {/* Bars */}
-              <div>
-                <div className="text-sm text-gray-700 mb-1">Age 35-45</div>
-                <div className="h-2 rounded-full bg-gray-100">
-                  <div className="h-2 rounded-full bg-orange-400 w-[80%]" />
+            <div className="space-y-4">
+              {/* Totals */}
+              <div className="grid grid-cols-2 gap-3">
+                <div className="rounded-lg bg-orange-50 border border-orange-200 p-3">
+                  <div className="text-xs text-gray-600">Total inventory</div>
+                  <div className="text-2xl font-extrabold text-gray-900 leading-tight">2,340</div>
+                  <div className="text-[10px] text-gray-500">screens in city limits</div>
                 </div>
-              </div>
-              <div>
-                <div className="text-sm text-gray-700 mb-1">Manager+</div>
-                <div className="h-2 rounded-full bg-gray-100">
-                  <div className="h-2 rounded-full bg-orange-400/80 w-[75%]" />
-                </div>
-              </div>
-              <div>
-                <div className="text-sm text-gray-700 mb-1">Tech Industry</div>
-                <div className="h-2 rounded-full bg-gray-100">
-                  <div className="h-2 rounded-full bg-orange-400/70 w-[60%]" />
+                <div className="rounded-lg bg-gray-50 border border-gray-200 p-3">
+                  <div className="text-xs text-gray-600">Availability</div>
+                  <div className="flex items-center gap-2 mt-1">
+                    <span className="inline-block w-2 h-2 rounded-full bg-orange-500" />
+                    <span className="text-xs text-gray-700">Outdoor 68%</span>
+                    <span className="inline-block w-2 h-2 rounded-full bg-sky-500 ml-3" />
+                    <span className="text-xs text-gray-700">Indoor 32%</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="pt-2">
-                <div className="text-sm font-medium text-gray-900 mb-2">AI Recommendations</div>
+              {/* By format */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between text-sm text-gray-700"><span>Billboard</span><span className="text-gray-500">820</span></div>
+                <div className="h-2 rounded-full bg-gray-100">
+                  <div className="h-2 rounded-full bg-orange-400 w-[35%]" />
+                </div>
+                <div className="flex items-center justify-between text-sm text-gray-700 mt-2"><span>Transit</span><span className="text-gray-500">760</span></div>
+                <div className="h-2 rounded-full bg-gray-100">
+                  <div className="h-2 rounded-full bg-orange-400/80 w-[32%]" />
+                </div>
+                <div className="flex items-center justify-between text-sm text-gray-700 mt-2"><span>Street Furniture</span><span className="text-gray-500">760</span></div>
+                <div className="h-2 rounded-full bg-gray-100">
+                  <div className="h-2 rounded-full bg-orange-400/70 w-[32%]" />
+                </div>
+              </div>
+
+              {/* Networks */}
+              <div className="pt-1">
+                <div className="text-sm font-medium text-gray-900 mb-2">Networks</div>
                 <ul className="space-y-2 text-sm">
-                  <li className="flex items-center"><span className="w-2 h-2 rounded-full bg-emerald-500 mr-2"/>Focus on LinkedIn targeting</li>
-                  <li className="flex items-center"><span className="w-2 h-2 rounded-full bg-sky-500 mr-2"/>B2B messaging approach</li>
-                  <li className="flex items-center"><span className="w-2 h-2 rounded-full bg-orange-500 mr-2"/>Consider mobile optimization</li>
+                  <li className="flex items-center justify-between">
+                    <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-emerald-500 mr-2"/>Clear Channel</div>
+                    <span className="text-gray-500">640</span>
+                  </li>
+                  <li className="flex items-center justify-between">
+                    <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-sky-500 mr-2"/>Lamar</div>
+                    <span className="text-gray-500">520</span>
+                  </li>
+                  <li className="flex items-center justify-between">
+                    <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-orange-500 mr-2"/>Outfront</div>
+                    <span className="text-gray-500">480</span>
+                  </li>
                 </ul>
+              </div>
+
+              {/* Actions */}
+              <div className="flex items-center gap-2 pt-1">
+                <button className="px-3 py-1.5 text-xs rounded-md border border-gray-200 text-gray-700 bg-white hover:bg-gray-50">Select All</button>
+                <button className="px-3 py-1.5 text-xs rounded-md bg-orange-500 text-white hover:bg-orange-600">Add to Plan</button>
               </div>
             </div>
           </div>
