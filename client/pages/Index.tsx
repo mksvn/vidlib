@@ -177,7 +177,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="order-1 lg:order-2">
+              <div className="order-2">
                 <Lesson1StrategyPlanner />
               </div>
             </div>
