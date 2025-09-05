@@ -186,7 +186,13 @@ export default function Index() {
           {/* Lesson 2 */}
           <section className="mb-16">
             <div className="grid lg:grid-cols-2 gap-16 items-start">
-              <div className="bg-gray-200 aspect-video rounded-lg lg:order-1"></div>
+              <div className="relative aspect-video rounded-lg overflow-hidden lg:order-1">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fa7ca7f496897417f9075eb8510a92886?format=webp&width=800"
+                  alt="Calendar launch UI"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
 
               <div className="lg:order-2">
                 <h2 className="text-2xl font-bold mb-4">
