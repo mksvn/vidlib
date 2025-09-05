@@ -177,7 +177,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="order-2">
+              <div className="order-1 lg:order-2">
                 <Lesson1StrategyPlanner />
               </div>
             </div>
@@ -338,7 +338,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="relative aspect-video rounded-lg overflow-hidden order-2">
+              <div className="relative aspect-video rounded-lg overflow-hidden order-1 lg:order-2">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fd522b8ea658147beb9c1b5282417a491"
                   alt="Ideas layered visual"
