@@ -338,7 +338,13 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="bg-gray-200 aspect-video rounded-lg order-1 lg:order-2"></div>
+              <div className="relative aspect-video rounded-lg overflow-hidden order-1 lg:order-2">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fd5f2f454c6b9468098c34a9d329dbf66?format=webp&width=800"
+                  alt="Ideas layered visual"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
             </div>
           </section>
         </div>
