@@ -127,7 +127,7 @@ export default function Index() {
                 <div className="space-y-2">
                   <Link
                     to="/video/lesson1/video1"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -142,7 +142,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson1/video2"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -157,7 +157,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson1/video3"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -206,7 +206,7 @@ export default function Index() {
                 <div className="space-y-2">
                   <Link
                     to="/video/lesson2/video1"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -221,7 +221,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson2/video2"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -236,7 +236,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson2/video3"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -273,7 +273,7 @@ export default function Index() {
                 <div className="space-y-2">
                   <Link
                     to="/video/lesson3/video1"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -288,7 +288,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson3/video2"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -303,7 +303,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson3/video3"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
@@ -318,7 +318,7 @@ export default function Index() {
 
                   <Link
                     to="/video/lesson3/video4"
-                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600`}
+                    className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group hover:bg-gray-600 border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
                       <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
