@@ -214,6 +214,7 @@ export default function VideoDetail() {
               Sign Up
             </button>
           </nav>
+          <MobileNav />
         </header>
       </div>
 
