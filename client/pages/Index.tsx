@@ -113,7 +113,7 @@ export default function Index() {
 
           {/* Lesson 1 */}
         <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="grid lg:grid-cols-2 gap-16 items-start justify-center justify-items-center">
             <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 1: Establish an optimal strategy
@@ -185,7 +185,7 @@ export default function Index() {
 
           {/* Lesson 2 */}
           <section className="mb-16">
-            <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div className="grid lg:grid-cols-2 gap-16 items-start justify-center justify-items-center">
               <div className="relative aspect-video rounded-lg overflow-hidden lg:order-1">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fb50acf7089a345ba97a1223c1cda5e74"
@@ -260,7 +260,7 @@ export default function Index() {
 
           {/* Lesson 3 */}
           <section>
-            <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div className="grid lg:grid-cols-2 gap-16 items-start justify-center justify-items-center">
               <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 3: Brainstorm ideas for your brand/industry
