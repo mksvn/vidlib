@@ -113,7 +113,7 @@ export default function Index() {
 
           {/* Lesson 1 */}
         <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-16 items-start justify-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
             <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 1: Establish an optimal strategy
@@ -185,8 +185,8 @@ export default function Index() {
 
           {/* Lesson 2 */}
           <section className="mb-16">
-            <div className="grid lg:grid-cols-2 gap-16 items-start justify-center">
-              <div className="relative aspect-video rounded-lg overflow-hidden w-full lg:order-1">
+            <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
+              <div className="relative aspect-video rounded-lg overflow-hidden w-full mx-auto lg:order-1">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fb50acf7089a345ba97a1223c1cda5e74"
                   alt="Calendar launch UI"
@@ -260,7 +260,7 @@ export default function Index() {
 
           {/* Lesson 3 */}
           <section>
-            <div className="grid lg:grid-cols-2 gap-16 items-start justify-center">
+            <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
               <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 3: Brainstorm ideas for your brand/industry
@@ -338,7 +338,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="relative aspect-video rounded-lg overflow-hidden w-full order-1 lg:order-2">
+              <div className="relative aspect-video rounded-lg overflow-hidden w-full mx-auto order-1 lg:order-2">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fd522b8ea658147beb9c1b5282417a491"
                   alt="Ideas layered visual"
