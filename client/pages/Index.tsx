@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Lesson1StrategyPlanner from "../components/visuals/Lesson1StrategyPlanner";
+import MobileNav from "../components/MobileNav";
 
 // Custom play icon with white circle and cutout play button
 const PlayIconCutout = ({
