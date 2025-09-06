@@ -188,7 +188,7 @@ export default function Index() {
             <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
               <div className="relative aspect-video rounded-lg overflow-hidden w-full mx-auto lg:order-1">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fb50acf7089a345ba97a1223c1cda5e74"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2F2acfae976fb74ebeb78258546968b635"
                   alt="Calendar launch UI"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
