@@ -199,7 +199,7 @@ export default function Index() {
             <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
               <div className="relative aspect-video rounded-lg overflow-hidden w-full mx-auto lg:order-1">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2F2acfae976fb74ebeb78258546968b635"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Ff9f0f87e312f4cfb9f8c3b9a5ba8b72e"
                   alt="Calendar launch UI"
                   className="absolute inset-0 w-full h-full object-contain object-center"
                 />
@@ -372,7 +372,7 @@ export default function Index() {
 
               <div className="relative aspect-video rounded-lg overflow-hidden w-full mx-auto order-1 lg:order-2">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2Fd522b8ea658147beb9c1b5282417a491"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2F764c958c2ff647859cfc3cf35d96e007"
                   alt="Ideas layered visual"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
