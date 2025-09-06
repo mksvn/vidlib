@@ -1,6 +1,7 @@
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
+import MobileNav from "../components/MobileNav";
 
 // Lesson data structure
 const lessonsData = {
