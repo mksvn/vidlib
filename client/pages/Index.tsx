@@ -15,7 +15,7 @@ const PlayIconCutout = ({
     width="20"
     height="20"
     viewBox="0 0 20 20"
-    className={`w-5 h-5 flex-shrink-0 ${className || ''}`}
+    className={`w-5 h-5 flex-shrink-0 ${className || ""}`}
   >
     <defs>
       <mask id="play-cutout">
@@ -114,9 +114,9 @@ export default function Index() {
           </section>
 
           {/* Lesson 1 */}
-        <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
-            <div className="order-2 lg:order-1">
+          <section className="mb-16">
+            <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
+              <div className="order-2 lg:order-1">
                 <h2 className="text-2xl font-bold mb-4">
                   Lesson 1: Establish an optimal strategy
                 </h2>
@@ -132,7 +132,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Provide your industry category or brand
                       </span>
@@ -147,7 +150,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Explore inventory by market
                       </span>
@@ -162,7 +168,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Explore inventory by POI
                       </span>
@@ -211,7 +220,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Set budget and dates
                       </span>
@@ -226,7 +238,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Refine plan or make revisions
                       </span>
@@ -241,7 +256,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Finalize and share campaign plan
                       </span>
@@ -278,7 +296,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Get strategic recommendations for my brand
                       </span>
@@ -293,7 +314,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Automate unique selling points and differentiators
                       </span>
@@ -308,7 +332,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Target relevant to my brand
                       </span>
@@ -323,7 +350,10 @@ export default function Index() {
                     className={`flex items-center justify-between p-3 rounded-lg cursor-pointer transition-colors bg-gray-700 group border border-transparent hover:border-primary`}
                   >
                     <div className="flex items-start md:items-center">
-                      <PlayIconCutout className="mr-3 mt-1 md:mt-0" isSelected={false} />
+                      <PlayIconCutout
+                        className="mr-3 mt-1 md:mt-0"
+                        isSelected={false}
+                      />
                       <span className="text-gray-300 font-normal">
                         Discover my brand should use DOOH advertising
                       </span>
