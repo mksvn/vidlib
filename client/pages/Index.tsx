@@ -190,7 +190,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7e300c5bcfc947bd85282e73efa97564%2F2acfae976fb74ebeb78258546968b635"
                   alt="Calendar launch UI"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full object-contain object-center"
                 />
               </div>
 
