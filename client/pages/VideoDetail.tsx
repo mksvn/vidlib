@@ -251,6 +251,7 @@ export default function VideoDetail() {
                 height="100%"
                 controls
                 autoPlay
+                playsInline
                 className="rounded-t-lg"
               >
                 <source src={currentPlayingVideo?.videoUrl} type="video/mp4" />
@@ -321,7 +322,7 @@ export default function VideoDetail() {
           {!isLastVideoOfLastLesson && currentLesson.next && (
             <Link
               to={currentLesson.next.route}
-              className="border border-gray-400 rounded-lg p-6 block hover:bg-white hover:bg-opacity-10 transition-colors"
+              className="border border-gray-400 rounded-lg p-6 block hover:bg-white hover:bg-opacity-10 hover:border-primary transition-colors"
             >
               <div className="flex justify-between items-center">
                 <div>
