@@ -69,6 +69,7 @@ export default function Index() {
               Sign Up
             </button>
           </nav>
+          <MobileNav />
         </header>
 
         <div className="pb-20">
