@@ -333,7 +333,7 @@ export default function VideoDetail() {
                     {currentLesson.next.title}
                   </h4>
                 </div>
-                <div className="bg-white bg-opacity-10 px-4 py-2 rounded text-sm font-normal">
+                <div className="hidden md:block bg-white bg-opacity-10 px-4 py-2 rounded text-sm font-normal">
                   Go to {lessonId === "lesson1" ? "lesson 2" : "lesson 3"}
                 </div>
               </div>
