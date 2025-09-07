@@ -326,7 +326,7 @@ export default function VideoDetail() {
               to={currentLesson.next.route}
               className="border border-gray-400 rounded-lg p-6 block hover:bg-white hover:bg-opacity-10 hover:border-primary transition-colors"
             >
-              <div className="flex justify-between items-center">
+              <div className="flex flex-col gap-3 sm:flex-col md:flex-row md:justify-between md:items-center">
                 <div>
                   <div className="text-gray-300 text-sm mb-1">Next Lesson</div>
                   <h4 className="text-white font-normal text-lg">
