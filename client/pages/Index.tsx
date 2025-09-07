@@ -76,8 +76,8 @@ export default function Index() {
         <div className="pb-20">
           {/* Hero Section */}
           <section className="mb-20 py-12 lg:h-[70vh] lg:flex lg:items-center border-b border-white border-opacity-25">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div>
+            <div className="grid gap-16 items-center justify-center">
+              <div className="text-center max-w-3xl mx-auto">
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
                   Intro to AdAura
                 </h1>
@@ -95,7 +95,7 @@ export default function Index() {
                   Get started
                 </Link>
 
-                <div className="flex items-center mt-8 text-sm text-gray-400">
+                <div className="flex items-center justify-center mt-8 text-sm text-gray-400">
                   <div className="flex flex-col items-start mr-6">
                     <span className="font-bold text-base">10</span>
                     <span className="text-sm">Videos</span>
@@ -107,9 +107,6 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="rounded-lg p-6 flex flex-col">
-                <img src="https://storybook.js.org/tutorials/guide-cover/intro.svg" />
-              </div>
             </div>
           </section>
 
