@@ -86,13 +86,6 @@ export default function Index() {
                   plan, optimize, and launch smarter DOOH campaigns with speed
                   and precision.
                 </p>
-                <Link
-                  to="/video/lesson1/video1"
-                  className="bg-white text-gray-900 px-6 py-3 rounded-full font-normal hover:bg-gray-100 transition-colors inline-block"
-                >
-                  Get started
-                </Link>
-
                 <div className="flex items-center justify-center mt-8 text-sm text-gray-400">
                   <div className="flex flex-col items-center mr-6">
                     <span className="font-bold text-base">10</span>
@@ -103,6 +96,13 @@ export default function Index() {
                     <span className="text-sm">Total course time</span>
                   </div>
                 </div>
+
+                <Link
+                  to="/video/lesson1/video1"
+                  className="bg-white text-gray-900 px-6 py-3 rounded-full font-normal hover:bg-gray-100 transition-colors inline-block mt-6"
+                >
+                  Get started
+                </Link>
               </div>
             </div>
           </section>
