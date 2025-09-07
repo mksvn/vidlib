@@ -15,19 +15,19 @@ const lessonsData = {
         title: "Provide your industry category or brand",
         duration: "2:16",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video2: {
         title: "Explore inventory by market",
         duration: "2:12",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video3: {
         title: "Explore inventory by POI",
         duration: "3:47",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
     },
     next: {
@@ -45,19 +45,19 @@ const lessonsData = {
         title: "Set budget and dates",
         duration: "3:15",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video2: {
         title: "Refine plan or make revisions",
         duration: "4:20",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video3: {
         title: "Finalize and share campaign plan",
         duration: "1:24",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
     },
     next: {
@@ -75,25 +75,25 @@ const lessonsData = {
         title: "Get strategic recommendations for my brand",
         duration: "2:24",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video2: {
         title: "Automate unique selling points and differentiators",
         duration: "3:42",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video3: {
         title: "Target relevant to my brand",
         duration: "2:39",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
       video4: {
         title: "Discover my brand should use DOOH advertising",
         duration: "1:50",
         videoUrl:
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "https://cdn.builder.io/o/assets%2F7e300c5bcfc947bd85282e73efa97564%2F4216557de7c84cf489dbc223ecab5336?alt=media&token=03987f13-1971-475d-a278-9022250b9d8c&apiKey=7e300c5bcfc947bd85282e73efa97564",
       },
     },
     next: null,
