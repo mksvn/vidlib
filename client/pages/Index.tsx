@@ -82,7 +82,9 @@ export default function Index() {
                   Intro to AdAura
                 </h1>
                 <p className="text-gray-300 text-lg leading-relaxed mb-8 font-normal">
-                  AdAura is an AI-powered assistant for smarter DOOH advertising—helping you plan, optimize, and launch data-driven campaigns faster and more effectively.
+                  AdAura is an AI-powered assistant for smarter DOOH
+                  advertising—helping you plan, optimize, and launch data-driven
+                  campaigns faster and more effectively.
                 </p>
                 <Link
                   to="/video/lesson1/video1"
@@ -102,7 +104,6 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-
             </div>
           </section>
 
