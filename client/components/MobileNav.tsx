@@ -27,7 +27,7 @@ export default function MobileNav() {
 
       {open && (
         <div role="dialog" aria-modal="true" className="fixed inset-0 z-50 bg-gray-900/95 text-white">
-          <div className="flex items-center justify-between px-6 py-4">
+          <div className="flex items-center justify-between px-8 py-6">
             <a href="/" className="flex items-center hover:opacity-80 transition-opacity">
               <span className="text-white text-lg font-bold">Ad</span>
               <span className="text-white text-lg font-light">Aura</span>
@@ -43,7 +43,7 @@ export default function MobileNav() {
             </button>
           </div>
 
-          <nav className="px-6 pb-8 space-y-1">
+          <nav className="px-8 pb-6 space-y-1">
             <a href="#" className="block px-2 py-3 text-[18px] hover:bg-white/10 rounded-md">Company</a>
             <a href="#" className="block px-2 py-3 text-[18px] hover:bg-white/10 rounded-md">Platform</a>
             <a href="#" className="block px-2 py-3 text-[18px] hover:bg-white/10 rounded-md">Resources</a>
