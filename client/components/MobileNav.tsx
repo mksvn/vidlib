@@ -28,7 +28,10 @@ export default function MobileNav() {
       {open && (
         <div role="dialog" aria-modal="true" className="fixed inset-0 z-50 bg-gray-900/95 text-white">
           <div className="flex items-center justify-between px-6 py-4">
-            <span className="text-white text-lg font-semibold">Menu</span>
+            <a href="/" className="flex items-center hover:opacity-80 transition-opacity">
+              <span className="text-white text-lg font-bold">Ad</span>
+              <span className="text-white text-lg font-light">Aura</span>
+            </a>
             <button
               aria-label="Close menu"
               onClick={() => setOpen(false)}
