@@ -75,7 +75,7 @@ export default function Index() {
 
         <div className="pb-20">
           {/* Hero Section */}
-          <section className="mb-20 py-12 lg:h-[70vh] lg:flex lg:items-center border-b border-white border-opacity-25">
+          <section className="mb-20 py-12 lg:h-[60vh] lg:flex lg:items-center border-b border-white border-opacity-25">
             <div className="grid gap-16 items-center justify-center w-full max-w-[650px] mx-auto">
               <div className="text-center max-w-3xl mx-auto">
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
