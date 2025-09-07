@@ -264,7 +264,7 @@ export default function VideoDetail() {
 
           {/* Video Info Section */}
           <div className="bg-gray-800 rounded-b-lg p-6 mb-8">
-            <div className="flex justify-between items-center mb-6">
+            <div className="flex flex-col gap-2 md:flex-row md:justify-between md:items-center mb-6">
               <h3 className="text-white font-bold text-lg">
                 {currentLesson.title} ({videoEntries.length} Videos)
               </h3>
