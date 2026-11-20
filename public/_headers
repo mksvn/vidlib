@@ -1,0 +1,4 @@
+# Cloudflare Pages response headers.
+# Keep every page and file on this site out of search results.
+/*
+  X-Robots-Tag: noindex, nofollow
