@@ -1,14 +1,5 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# This site is kept out of search results by the X-Robots-Tag header
+# (see _headers) and a robots meta tag. Crawling stays allowed so search
+# engines can read them; a URL blocked here could still be listed.
 User-agent: *
 Allow: /
